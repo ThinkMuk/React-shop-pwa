@@ -7,6 +7,45 @@
   pointer-events: none;
 }
 
+.jumbotron {
+  background-image: url(/public/images/background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  background-color: rgb(215, 215, 215);
+  background-size: cover;
+  color: white;
+}
+
+.list-text-design {
+  color: #303840;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.list-text-design:hover {
+  color: black;
+}
+
+.navbarTitle {
+  text-decoration: none;
+  color: white;
+}
+.navbarTitle:hover {
+  color: white;
+}
+
+.navbarLink {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+  transition: 0.15s;
+}
+
+.navbarLink:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
